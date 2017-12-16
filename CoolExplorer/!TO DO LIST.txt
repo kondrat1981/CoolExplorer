@@ -1,0 +1,28 @@
+N	Opis problemu																kto robi	status			uwagi/sposob rozwiazania
+
+
+
+1. Ikony do dyskow 16, 24, 32 pikseli											mirosb		(waiting)
+2. Locki do progresow															gregp		(working)
+3. Podswietlanie katalogow podczas drag&drop (BOOL TMyGrid::SetItemState		roberto		(waiting)
+4. Usuniecie z maski podwojnych gwiazdek (**)									gregp		(fixed)			funkcja CorrectMask
+5. Toolbar 16, 24, 32 pikseli													roberto		(fixed)			
+6. Opcjonalne dodawanie ".." na glownej sciezce (klawisz backspace)				-			(waiting)		RecalcToolbarSize()
+7. Tworzenie/usuwanie temp katologu dla coolexplorera							gregp		(fixed)			GetTempDir(bCreate)/RemoveTempDir()
+8. Zle obliczanie indeksu z pozycji kursora (TMyGrid.cpp np. po ctrl+r)			gregp		(fixed)			w DrawRows jesli m_DisplRowTop < 0 ustawiam zero
+9. TRACE - nalezy dodac trace do kluczowych funkcji w razie bledow!!!			roberto		(working)
+10. Szukanie plikow																roberto		(working)
+11. Counting Directories size (space - for one,LSHIFT + LALT + enter - for all)	gregp		(fixed)
+12. Punkt 11 w watku															-			-
+13. Ability to copy files between two ftp sessions								gregp		(fixed)
+14. Tooltipy do dyskow (typ, labelka/sciezka sieciowa, wolne miejsce)			roberto		(working) 
+15. Inny kolor tla dla ftp
+16. Porownywanie zawartosci katalogow											gregp		(fixed)
+17. Wyswetlanie rozmiaru  dysku (KB/MB) wedlug ustawien w opcjach
+18. Ctrl+enter i Ctrl+shift+enter - kopiowanie nazwy pliku do paska             roberto
+19. Wlasny viewer																roberto		(przemyslenia)
+20. Obsluga archiwow															moze byc roberto (waiting)
+21. Ustawianie focusa na gridzie po zmianie dysku z DriveBar'a					roberto		(fixed)
+22. Filtr dla plikow (Ctrl + F)													gregp       (fixed)
+23. Showing main window (as active) when calling it from try.					roberto		(fixed)
+24. Opening files with View/Edit (Dirs,..,Filenames with spaces inside)			roberto		(fixed)
