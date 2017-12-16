@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoolExplorer", "CoolExplorer\CoolExplorer.vcproj", "{A7469E3B-51D1-4717-B927-F5111FA75CF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6} = {7CB891CC-90FD-4E46-8E1E-21456D75D4F6}
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC} = {A15179D2-BB3C-42D1-B981-7A7789383DEC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoolTools", "CoolTools\CoolTools.vcproj", "{A15179D2-BB3C-42D1-B981-7A7789383DEC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoolViewer", "CoolViewer\CoolViewer.vcproj", "{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC} = {A15179D2-BB3C-42D1-B981-7A7789383DEC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Unicode = Debug Unicode
+		Release = Release
+		Release Unicode = Release Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Debug.ActiveCfg = Debug|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Debug.Build.0 = Debug|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Debug Unicode.Build.0 = Debug Unicode|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Release.ActiveCfg = Release|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Release.Build.0 = Release|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Release Unicode.ActiveCfg = Release Unicode|Win32
+		{A7469E3B-51D1-4717-B927-F5111FA75CF5}.Release Unicode.Build.0 = Release Unicode|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Debug.ActiveCfg = Debug|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Debug.Build.0 = Debug|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Debug Unicode.Build.0 = Debug Unicode|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Release.ActiveCfg = Release|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Release.Build.0 = Release|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Release Unicode.ActiveCfg = Release Unicode|Win32
+		{A15179D2-BB3C-42D1-B981-7A7789383DEC}.Release Unicode.Build.0 = Release Unicode|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Debug.ActiveCfg = Debug|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Debug.Build.0 = Debug|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Debug Unicode.Build.0 = Debug Unicode|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Release.ActiveCfg = Release|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Release.Build.0 = Release|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Release Unicode.ActiveCfg = Release Unicode|Win32
+		{7CB891CC-90FD-4E46-8E1E-21456D75D4F6}.Release Unicode.Build.0 = Release Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
